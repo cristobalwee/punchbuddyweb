@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="259px" height="48px" viewBox="0 0 259 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#09AFEA" offset="0%"></stop>
+            <stop stop-color="#29F39A" offset="100%"></stop>
+        </linearGradient>
+        <path d="M4.51612903,10.25 L35,10.25 L35,27.375 L35,27.375 C35,29.238961 33.488961,30.75 31.625,30.75 L4.51612903,30.75 L4.51612903,10.25 Z" id="path-2"></path>
+        <rect id="path-3" x="4.51612903" y="28.9972554" width="30.483871" height="12.0027446" rx="3.375"></rect>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#09B0E8" offset="0%"></stop>
+            <stop stop-color="#2AF598" offset="100%"></stop>
+        </linearGradient>
+        <path d="M11.266129,0 L28.25,0 L28.25,0 C31.9779221,-6.84808173e-16 35,3.02207794 35,6.75 L35,10.25 L35,10.25 C35,15.9109187 30.4109187,20.5 24.75,20.5 L11.266129,20.5 L11.266129,20.5 C7.53820697,20.5 4.51612903,17.4779221 4.51612903,13.75 L4.51612903,6.75 L4.51612903,6.75 C4.51612903,3.02207794 7.53820697,6.84808173e-16 11.266129,0 Z" id="path-5"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-50.000000, -61.000000)">
+            <g id="Group-4" transform="translate(45.000000, 57.000000)">
+                <g id="Group" transform="translate(25.500000, 26.500000) rotate(28.000000) translate(-25.500000, -26.500000) translate(8.000000, 6.000000)">
+                    <g id="Rectangle-14">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <path stroke="url(#linearGradient-1)" stroke-width="1.6875" d="M5.35987903,11.09375 L5.35987903,29.90625 L31.625,29.90625 C33.0229708,29.90625 34.15625,28.7729708 34.15625,27.375 L34.15625,11.09375 L5.35987903,11.09375 Z"></path>
+                    </g>
+                    <g id="Rectangle-3">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <rect stroke="url(#linearGradient-1)" stroke-width="1.6875" x="5.35987903" y="29.8410054" width="28.796371" height="10.3152446" rx="3.375"></rect>
+                    </g>
+                    <g id="Rectangle">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        <path stroke="url(#linearGradient-4)" stroke-width="1.6875" d="M11.266129,0.84375 C8.00419723,0.84375 5.35987903,3.4880682 5.35987903,6.75 L5.35987903,13.75 C5.35987903,17.0119318 8.00419723,19.65625 11.266129,19.65625 L24.75,19.65625 C29.9449284,19.65625 34.15625,15.4449284 34.15625,10.25 L34.15625,6.75 C34.15625,3.4880682 31.5119318,0.84375 28.25,0.84375 L11.266129,0.84375 Z"></path>
+                    </g>
+                    <path d="M0.285282258,20.5 C0.285282258,18.1486707 2.17784724,16.2395833 4.51612903,16.2395833 L11.2903226,16.2395833 C13.6286044,16.2395833 15.5211694,18.1486707 15.5211694,20.5 C15.5211694,22.8513293 13.6286044,24.7604167 11.2903226,24.7604167 L7.66097193,24.7604167 L0.285282258,21.0180338 L0.285282258,20.5 Z" id="Rectangle-15" stroke="url(#linearGradient-1)" stroke-width="1.6875"></path>
+                    <rect id="Rectangle-2" fill="#FFFFFF" x="1.12903226" y="17.0833333" width="13.5483871" height="6.83333333" rx="3.41666667"></rect>
+                    <path d="M1.12903226,20.5 L4.51612903,20.5 C6.09985213,22.9121704 6.89171368,24.7689684 6.89171368,26.0703939 C6.89171368,26.6642111 6.99136189,28.1040699 6.64998076,28.5666383 C6.47782411,28.799909 6.5601182,28.9368473 6.49287667,28.948262 C6.0953405,29.0157463 5.43642462,29.0157463 4.51612903,28.948262 L1.12903226,27.3333333 L1.12903226,20.5 Z" id="Rectangle-16" fill="#FFFFFF"></path>
+                    <path d="M5.65432299,29.8059961 C5.26012825,29.8671359 4.93367972,29.8967692 4.67497741,29.894896 C3.51119443,29.8864695 1.79705708,27.1185716 0.907319445,24.4428993 C0.314947156,22.6614819 0.292103179,20.6793484 0.294919355,20.4621369" id="Path-3" stroke="url(#linearGradient-1)" stroke-width="1.6875"></path>
+                </g>
+                <text id="Punch-Buddy" font-family="Cubano-Regular, Cubano" font-size="32" font-weight="normal" letter-spacing="0.04958326" fill="#000000">
+                    <tspan x="65" y="41">Punch Buddy</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

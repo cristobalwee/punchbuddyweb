@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Quicksand", sans-serif !important;
+  font-weight: 300 !important;
+}
+
+.left {
+  text-align: : left;
+}
+
+.right {
+  text-align: : right;
+}
+
+.center {
+  text-align: center;
+}
+
+.inline {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin-left: 30px;
+}
+
+a:active {
+  color: black;
+}
+
+h1, h2, h3 {
+  font-family: "Cubano", sans-serif;
+}
+
+.nav-bar {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 2rem 3rem;
+}
+
+.nav-bar #logo {
+  height: 2rem;
+}
+
+.nav-right {
+  float: right;
+  padding-top: 5px;
+}
+
+.nav-left a {
+  margin: 0;
+}
+
+.nav-bar p {
+  position: relative;
+}
+
+.nav-bar p::before {
+  content: "";
+  position: absolute;
+  border-radius: 16px;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  background: linear-gradient(to right, #08aeea, #2af598);
+  -webkit-transform: translateY(200%);
+  transform: translateY(200%);
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.nav-bar p:hover::before {
+  opacity: 1;
+ -webkit-transform: translateY(100%);
+ transform: translateY(100%);
+}
+
+#process::before {
+  content: "";
+  position: absolute;
+  border-radius: 16px;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  opacity: 1;
+  background: linear-gradient(to right, #08aeea, #2af598);
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+}
