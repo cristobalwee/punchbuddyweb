@@ -16,12 +16,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta name="description" content="Boxing, running, cycling, and more - add structure to your interval workouts with Punch Buddy.">
-    <title>Punch Buddy</title>
-    <link rel="icon" type="image/png" href="public/media/icon.png">
+    <title>Punch Buddy - The Process</title>
+    <link rel="icon" type="image/png" href="media/icon.png">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <!-- Latest compiled and minified CSS -->
     <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css"-->
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300" rel="stylesheet">
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">
+    </script>
   </head>
 
   <body>
@@ -40,7 +45,7 @@
         <h1>#TheProcess</h1>
         <p>The design process, that is - not to be confused with Philadelphia center Joel Embiid.</p>
         <br/><br/>
-        <span class="btn-primary">Check it out</span>
+        <a href="#brief"><span class="btn-primary">Check it out</span></a>
       </div>
       <div id="design-image" class="content">
         <img class="inline" src="media/flows.svg"/>
@@ -48,13 +53,13 @@
     </div>
     <div id="brief">
       <div id="brief-image" class="">
-        <img class="inline" src="media/brief_alt.png"/>
+        <img class="inline" src="media/brief.png"/>
       </div>
       <div id="brief-title" class="left">
         <h1>Step 1: The Brief</h1>
         <p>I started by laying out my ideas for the concept, name, structure, and existing competitiors on a page.</p>
         <br/><br/>
-        <span class="btn-primary">Check it out</span>
+        <a href="media/brief_focus.pdf"><span class="btn-primary">Check it out</span></a>
       </div>
     </div>
     <div id="flows">
@@ -62,10 +67,21 @@
         <h1>Step 2: The Flows</h1>
         <p>Once I had a good idea of what it was I wanted to create, I drew up some potential user flows.</p>
         <br/><br/>
-        <span class="btn-primary">Check it out</span>
+        <a href="media/flows_focus.pdf"><span class="btn-primary">Check it out</span></a>
       </div>
       <div id="flows-image" class="content">
-        <img class="inline" src="media/flows.svg"/>
+        <img class="inline" src="media/flows_alt.svg"/>
+      </div>
+    </div>
+    <div id="assets">
+      <div id="assets-image" class="content">
+        <img class="inline" src="media/assets.png"/>
+      </div>
+      <div id="assets-title" class="left">
+        <h1>Step 3: The Assets</h1>
+        <p>It was then time to choose a color palette, typefaces, and draw up possible UI assets like cards and icons.</p>
+        <br/><br/>
+        <a href="media/assets_focus.png"><span class="btn-primary">Check it out</span></a>
       </div>
     </div>
     <div id="screens">
@@ -76,8 +92,17 @@
         <span class="btn-primary">Check it out</span>
       </div>
       <div id="screens-image" class="content">
-        <img class="inline" src="media/screens_alt.svg"/>
+        <img class="inline" src="media/screens.svg"/>
       </div>
     </div>
   </body>
+  <script>
+    $(document).on('click', 'a[href^="#"]', function (event) {
+      event.preventDefault();
+
+      $('html, body').animate({
+          scrollTop: $($.attr(this, 'href')).offset().top
+      }, 1000);
+    });
+  </script>
 </html>

@@ -38,7 +38,6 @@ body {
 a {
   text-decoration: none;
   color: black;
-  margin-left: 30px;
 }
 
 a:active {
@@ -62,7 +61,7 @@ h1, h2, h3 {
   padding: 0.5rem 2.3rem;
   background-color: white;
   border-radius: 30px;
-  border: solid 0.1rem black;
+  border: solid 0.1rem #5fcec4;
   color: black;
   font-family: "Cubano", sans-serif;
   font-size: 1.25rem;
@@ -84,8 +83,8 @@ h1, h2, h3 {
   padding-top: 5px;
 }
 
-.nav-left a {
-  margin: 0;
+.nav-right a {
+  margin-left: 30px;
 }
 
 .nav-bar p {
@@ -131,11 +130,11 @@ h1, h2, h3 {
   margin-top: 35vh;
 }
 
-#landing-title h1, #design-title h1, #brief h1, #flows h1 {
+#landing-title h1, #design-title h1, #brief-title h1, #flows-title h1, #assets-title h1, #screens-title h1 {
   font-size: 2.5rem;
 }
 
-#landing-title p, #design-title p, #brief p, #brief p {
+#landing-title p, #design-title p, #brief-title p, #flows-title p, #assets-title p, #screens-title p {
   padding-top: 1rem;
   font-size: 1.25rem;
 }
@@ -149,7 +148,7 @@ h1, h2, h3 {
 
 #landing-image img {
   height: 30rem;
-  margin-left: 5rem;
+  margin-left: 10rem;
 }
 
 #design-image img {
@@ -171,39 +170,51 @@ h1, h2, h3 {
   transform: translateY(100%);
 }
 
-#brief {
+#brief, #flows, #assets, #screens {
   position: relative;
-  margin-top: 20rem;
   height: 100%;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
 
-#brief-image {
+#brief {
+  margin-top: 20rem;
+}
+
+#screens {
+  margin-top: 0;
+}
+
+#flows {
+  margin-top: 40rem;
+}
+
+#assets {
+  margin-top: 30rem;
+}
+
+#brief-image, #assets-image {
   width: 50%;
   display: inline;
 }
 
 #brief-image img {
   position: absolute;
-  height: 50rem;
+  height: 60rem;
+  margin-left: -20rem;
 }
 
-#brief-title {
+#assets-image img {
+  height: 35rem;
+  margin-left: -25rem;
+}
+
+#brief-title, #assets-title {
   width: 25rem;
   margin-left: 5rem;
   display: inline;
-  margin-top: 35vh;
-}
-
-#flows, #screens {
-  position: relative;
-  margin-top: 20rem;
-  height: 100%;
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  margin-top: 30vh;
 }
 
 #flows-image, #screens-image {
@@ -219,7 +230,9 @@ h1, h2, h3 {
 }
 
 #screens-image img {
-  height: 65rem;
+  height: 85rem;
+  position: absolute;
+  transform: translateY(-40%);
   margin-left: 5rem;
 }
 
