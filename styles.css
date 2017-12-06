@@ -232,8 +232,8 @@ h1, h2, h3 {
 #screens-image img {
   height: 85rem;
   position: absolute;
-  transform: translateY(-40%);
-  margin-left: 5rem;
+  transform: translateY(-45%);
+  margin-left: 10rem;
 }
 
 #flows-title, #screens-title {
