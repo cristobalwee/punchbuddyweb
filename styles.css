@@ -130,11 +130,11 @@ h1, h2, h3 {
   margin-top: 35vh;
 }
 
-#landing-title h1, #design-title h1, #brief-title h1, #flows-title h1, #assets-title h1, #screens-title h1 {
+#landing-title h1, #design-title h1, #brief-title h1, #flows-title h1, #assets-title h1, #screens-title h1, #conclusion h1 {
   font-size: 2.5rem;
 }
 
-#landing-title p, #design-title p, #brief-title p, #flows-title p, #assets-title p, #screens-title p {
+#landing-title p, #design-title p, #brief-title p, #flows-title p, #assets-title p, #screens-title p, #conclusion p {
   padding-top: 1rem;
   font-size: 1.25rem;
 }
@@ -232,7 +232,7 @@ h1, h2, h3 {
 #screens-image img {
   height: 85rem;
   position: absolute;
-  transform: translateY(-45%);
+  transform: translateY(-50%); /*-45%*/
   margin-left: 10rem;
 }
 
@@ -241,4 +241,40 @@ h1, h2, h3 {
   margin-left: 15rem;
   display: inline;
   margin-top: 35vh;
+}
+
+#conclusion {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  margin-top: 60vh;
+  padding-bottom: 20rem;
+  padding-top: 10rem;
+}
+
+#conclusion p {
+  margin: 0 auto;
+  width: 40rem;
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+#conclusion footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+
+#conclusion footer p {
+  text-align: center;
+  font-size: 1rem;
+}
+
+#conclusion footer img {
+  height: 1.5rem;
+  transform: translateY(25%);
 }
